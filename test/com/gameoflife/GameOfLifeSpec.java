@@ -14,7 +14,7 @@ public class GameOfLifeSpec {
         GameOfLife life = new GameOfLife();
         int numberOfNeighbours = 0;
         boolean isAlive = true;
-        Cell cell = new Cell(numberOfNeighbours, isAlive);
+        Cell cell = new Cell(numberOfNeighbours, isAlive); 
 
         //when
         Cell evolvedCell=life.evolve(cell);
